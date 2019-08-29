@@ -25,6 +25,12 @@ public class Main {
         q.enqueue(new Person("ALi","234"));
         q.showAll();
 
+        //LinkedList
+        IntLinkedList list=new IntLinkedList(2);
+        list.insertItem(5);
+        list.insertItem(8);
+        list.printList();
+
 
 
 
